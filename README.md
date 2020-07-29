@@ -9,7 +9,7 @@ Data Description: 4 Transportation Metrics of China Aviation Industry from Jan 2
 3. Passenger Turnover (Billion Person-Kilometers): Product of passenger volume and passenger distance
 4. Passenger Throughput (Ten Thousand People): Number of passengers entering and leaving the area
 
-Model Selection: Time Series Prediction (SARIMAX)
+Model Selection: Time Series Prediction (SARIMAX)   
 Assumptions : 
 1. The autoregressive model relies on the nearest 4-5 historical values and prediction error values (March to June 2020) 🡪 p,q ∈ (4,5)
 2. Due to the data instability caused by COVID-19 , there will not be train/test split. The model is trained on the all data, while the optimal model is obtained by evaluating AIC through parameters iterating. 
